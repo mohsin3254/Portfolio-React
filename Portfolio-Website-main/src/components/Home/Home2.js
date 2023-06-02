@@ -59,15 +59,16 @@ function Home2() {
               </li>
 
               <li className="social-icons">
-                <i
-                  onClick={redirectToEmail}
+                <a
+                  style={{ color: `var(--clr-primary)` }}
+                  className="email"
+                  href="mailto:thisismohsinnawaz@outlook.com"
                   target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  rel="noopener noreferrer"
                   aria-label="email"
                 >
                   <AiOutlineMail />
-                </i>
+                </a>
               </li>
               <li className="social-icons">
                 <a
