@@ -6,7 +6,7 @@ import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const redirectToEmail = () => {
-  window.location.href = "mailto:your-email@example.com";
+  window.location.href = "mailto:thisismohsinnawaz@outlook.com";
 };
 function Home2() {
   return (
